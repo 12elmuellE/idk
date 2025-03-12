@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Invaders - Versión 1.0</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-wrapper">
+    <div class="info">
+      <p>Versión 1.0 - Clásica</p>
+    </div>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <div class="controls">
+      <button id="startButton" class="button start-button">Iniciar</button>
+      <button id="featureButton" class="button" style="display: none;">Características</button>
+      <button id="debugButton" class="button debug-button">Depuración</button>
+    </div>
+  </div>
+
+  <script src="responsive.js"></script>
+  <script src="touch-controls.js"></script>
+  <script src="feature-manager.js"></script>
+  <script src="difficulty-manager.js"></script>
+  <script src="debug.js"></script>
+  <script src="multiplayer.js"></script>
+  <script src="menu.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
